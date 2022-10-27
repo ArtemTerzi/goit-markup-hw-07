@@ -5,15 +5,15 @@
   text-align: center;
 }
 
-.team-title.title {
+.team__title {
   margin-bottom: 50px;
 }
 
-.container .team-list {
+.team__list {
   display: flex;
 }
 
-.team-list .teammate {
+.team__teammate {
   margin-right: var(--primary-gap);
 
   background-color: #ffffff;
@@ -26,12 +26,12 @@
   }
 }
 
-.name-jt {
+.team__name-jt {
   padding-top: var(--primary-gap);
   padding-bottom: var(--primary-gap);
 }
 
-.name {
+.team__name {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -39,23 +39,23 @@
   line-height: 1.19;
 }
 
-.job-title {
+.team__job-title {
   color: var(--secondary-text-color);
   margin-bottom: 16px;
 }
 
-.teammate-soc-list {
+.team__soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.teammate-soc-item {
+.team__soc-item {
   display: flex;
   background-color: transparent;
 }
 
-.teammate-soc-link {
+.team__soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;

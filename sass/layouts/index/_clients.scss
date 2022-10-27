@@ -1,21 +1,21 @@
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.client-item {
+.clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.client-item .client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;

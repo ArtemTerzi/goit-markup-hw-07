@@ -22,10 +22,19 @@
   text-transform: uppercase;
 }
 
-.hero.title {
+// .hero__title {
+//   width: 696px;
+//   height: 120px;
+//   color: #ffffff;
+//   margin: 0 auto;
+//   margin-bottom: var(--primary-gap);
+// }
+
+.hero__title {
   width: 696px;
   height: 120px;
   color: #ffffff;
   margin: 0 auto;
   margin-bottom: var(--primary-gap);
+  @extend .hero;
 }

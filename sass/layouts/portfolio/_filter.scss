@@ -1,11 +1,10 @@
-/* Filter */
-.container > .filter-list {
+.filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-list > .filter-item {
+.filter-list__item {
   margin-right: 8px;
 
   &:nth-last-child(1) {
@@ -13,7 +12,7 @@
   }
 }
 
-.filter-item > .button {
+.filter-list-button {
   padding: 6px 22px;
 
   &:first-child {
